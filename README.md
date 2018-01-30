@@ -36,7 +36,7 @@ Follow instructions in http://kafka.apache.org/documentation.html#quickstart
     ./gradlew test # runs both unit and integration tests
     ./gradlew unitTest
     ./gradlew integrationTest
-    
+
 ### Force re-running tests without code change ###
     ./gradlew cleanTest test
     ./gradlew cleanTest unitTest
@@ -59,10 +59,10 @@ Generate coverage reports for the whole project:
 
     ./gradlew reportCoverage
 
-Generate coverage for a single module, i.e.: 
+Generate coverage for a single module, i.e.:
 
     ./gradlew clients:reportCoverage
-    
+
 ### Building a binary release gzipped tar ball ###
     ./gradlew clean
     ./gradlew releaseTarGz
@@ -212,3 +212,5 @@ Apache Kafka is interested in building the community; we would welcome any thoug
 
 To contribute follow the instructions here:
  * http://kafka.apache.org/contributing.html
+
+ ### Thanks ###
